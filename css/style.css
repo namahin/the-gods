@@ -65,6 +65,12 @@ h3.sec-title {
     font-weight: 500;
 }
 
+h4.sec-title {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 500;
+}
+
 .sec-title span {
     color: #FF38F6;
 }
@@ -345,6 +351,8 @@ header {
     border-image-slice: 1;
     border-image-source: linear-gradient(to top, #FF38F6, #8D0087);
     padding: 50px 30px;
+    margin: 0 20px;
+    margin-bottom: 30px !important;
 }
 
 .roadmap-card h4 {
@@ -435,7 +443,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    padding-top: 166px;
+    padding-top: 120px;
     padding-bottom: 266px;
 }
 
@@ -451,7 +459,7 @@ header {
     font-size: 20px;
     line-height: 30px;
     margin: 0;
-    margin-right: 60px;
+    margin-right: 30px;
 }
 
 .footer-sec {
@@ -470,7 +478,8 @@ header {
 }
 
 .inner-sec .sec-title {
-    margin: 32px 0;
+    margin-top: 100px;
+    margin-bottom: 32px;
 }
 
 .team {
