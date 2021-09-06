@@ -1,0 +1,256 @@
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    .hero-content h1 {
+        font-size: 90px;
+        line-height: 100px;
+    }
+
+    .sec-title {
+        font-size: 65px;
+        line-height: 60px;
+    }
+
+    .text {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .fighter-img {
+        padding-left: 105px;
+    }
+
+    .fighter-content form p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+
+    .fighter-content form input {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .roadmap-item-text {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .inner-sec img {
+        width: 80%;
+    }
+
+    h3.sec-title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .inner-sec p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .sec-title {
+        font-size: 56px;
+    }
+
+    h3.sec-title {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .fighter-img {
+        padding-left: 20px
+    }
+
+    .roadmap-item-text {
+        font-size: 26px;
+        line-height: 36px
+    }
+
+    .roadmap-item-icon {
+        font-size: 72px;
+        line-height: 72px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .pe-40 {
+        padding: 0 15px;
+        margin-top: 50px;
+    }
+
+    .ps-40 {
+        padding: 0 15px;
+    }
+
+    .ps-40 {}
+
+    .inner-sec p {
+        margin-right: 0;
+    }
+
+    .sec-practices {
+        padding-bottom: 166px;
+    }
+
+    .become-fighter-sec {
+        padding-bottom: 900px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .hero-content h1 {
+
+        font-size: 62px;
+        line-height: 65px;
+    }
+
+    .sec-fighter {
+        padding-top: 100px;
+        padding-bottom: 400px
+    }
+
+    .fighter-content {
+        margin-bottom: 40px;
+    }
+
+    .fighter-content form button {
+        width: 100%;
+    }
+
+    .fighter-content form input {
+        width: 100%;
+    }
+
+    .fighter-img {
+        padding: 0;
+    }
+
+    .sec-title {
+        font-size: 46px;
+        line-height: 46px;
+    }
+
+    .sec-roadmap {
+        padding: 80px 0;
+    }
+
+    .sec-roadmap h2 {
+
+        position: relative !important;
+        visibility: visible !important;
+        top: auto !important;
+        padding-bottom: 50px;
+    }
+
+    .sec-roadmap .uk-sticky-placeholder {
+        display: none !important;
+    }
+
+    .sec-practices {
+        padding: 80px 0;
+    }
+
+    .row-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .inner-sec img {
+        width: 100%;
+    }
+
+    .sec-practices .inner-sec {
+        margin-bottom: 80px;
+    }
+
+    .footer-sec .inner-sec {
+        margin-bottom: 80px;
+    }
+
+    .mb-50 {
+        margin-bottom: 50px;
+    }
+
+    .team-card {
+        margin-bottom: 60px;
+    }
+
+    .become-fighter-sec {
+        padding-bottom: 800px;
+    }
+
+    .roadmap-item-group {
+        padding-left: 10px;
+    }
+
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .action ul {
+        display: block;
+    }
+
+    .action ul li {
+        display: block;
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .hero-sec {
+        padding-bottom: 800px;
+    }
+
+    .hero-content h1 {
+
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    .hero-content h1 span img {
+        height: 50px;
+    }
+
+    .sec-title {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    h3.sec-title {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .sec-roadmap h2 {
+        text-align: center;
+    }
+
+    .inner-sec img {
+        width: 75%;
+        margin: 0 12.5%;
+    }
+
+    .hero-content h1 span img {
+        padding: 0;
+    }
+    .roadmap-item{
+        padding-bottom: 40px;
+    }
+}
+@media (max-width: 359.98px){
+    .roadmap-item-icon{
+        padding: 0 30px;
+    }
+    .roadmap-item:first-child .roadmap-item-icon{
+        padding-right: 45px !important; 
+    }
+    .roadmap-item-text{
+        font-size:20px;
+        line-height: 28px;
+    }
+}
