@@ -341,13 +341,18 @@ header {
 
 .roadmap-card {
     text-align: center;
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to top, #FF38F6, #8D0087);
+    padding: 50px 30px;
 }
 
 .roadmap-card h4 {
     font-weight: 500;
     font-size: 75px;
-    line-height: 89px;
+    line-height: 75px;
     color: #FF38F6;
+    margin-bottom: 30px;
 }
 
 .roadmap-card p {
@@ -355,6 +360,7 @@ header {
     font-size: 28px;
     line-height: 50px;
     color: #FFFFFF;
+    margin: 0;
 }
 
 .roadmap-card p strong {
