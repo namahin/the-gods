@@ -107,22 +107,72 @@ header {
 
 
 .logo a img {
-    width: 200px;
+    width: 190px;
 }
 
+
+.social-icon ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
 
 .social-icon ul li {
     display: inline-block;
     font-size: 22px;
-    padding-left: 25px;
+    padding-left: 5px;
 }
 
 .social-icon ul li a {
     color: #fff;
+    -ms-transform: skewX(-12deg);
+    transform: skewX(-12deg);
+    display: block;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left top, #FF38F6, #5B4FFF, #FF38F6, #5B4FFF);
+    background: transparent;
+    width: 38px;
+    height: 35px;
+    position: relative;
+    transition: linear .2s;
+}
+
+.social-icon ul li a span {
+    -ms-transform: skewX(12deg);
+    transform: skewX(12deg);
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.social-icon ul li a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    background: -webkit-linear-gradient(270deg, #FF38F6, #8D0087);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: linear .2s;
+}
+
+.social-icon ul li a .p-icon {
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
 }
 
 .social-icon ul li a:hover {
-    color: #FCED0D;
+    background: linear-gradient(to left top, #FF38F6, #5B4FFF, #FF38F6, #5B4FFF);
+    transition: linear .2s;
+}
+.social-icon ul li a:hover i{
+    background: -webkit-linear-gradient(270deg, #ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: linear .2s;
 }
 
 .hero-sec {
@@ -225,10 +275,12 @@ header {
     background-position: center center;
     padding-bottom: 550px;
 }
-.become-fighter-content{
+
+.become-fighter-content {
     max-width: 1140px;
     margin: auto;
 }
+
 .become-fighter-content h2 {
     margin-top: 0;
     margin-bottom: 40px;
@@ -241,7 +293,8 @@ header {
     margin-bottom: 20px;
     text-align: center;
 }
-.become-fighter-content .action{
+
+.become-fighter-content .action {
     margin-top: 68px;
 }
 
@@ -502,7 +555,7 @@ header {
 
 .team-card {
     position: relative;
-    margin: 0 20px;
+    margin: 0 10px;
     overflow: hidden;
     top: 0;
     transform: scale(1);
@@ -542,4 +595,9 @@ header {
     line-height: 30px;
     letter-spacing: -0.02em;
     color: #ffffffbd;
+}
+
+footer {
+    padding: 22.25px 0;
+    border-top: 1px solid #ffffff1a;
 }
