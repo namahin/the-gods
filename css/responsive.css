@@ -39,14 +39,13 @@
         width: 80%;
     }
 
-    h3.sec-title {
-        font-size: 36px;
-        line-height: 46px;
-    }
-
     .inner-sec p {
         font-size: 16px;
         line-height: 26px;
+    }
+
+    .sec-fighter .col-md-6 {
+        padding: 0 15px;
     }
 }
 
@@ -57,27 +56,48 @@
     }
 
     h3.sec-title {
-        font-size: 32px;
-        line-height: 32px;
+        font-size: 50px;
+        line-height: 50px;
     }
 
     .fighter-img {
         padding-left: 20px
     }
 
-    .roadmap-item-text {
-        font-size: 26px;
-        line-height: 36px
+    .inner-sec .sec-title {
+        font-size: 36px;
+        line-height: 40px;
+        margin-top: 50px;
     }
 
-    .roadmap-item-icon {
-        font-size: 72px;
-        line-height: 72px;
+    .faq-content {
+        padding: 0 50px
     }
+
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+    .navbar-nav {
+        background: #fff;
+        margin-top: 15px;
+    }
+
+    .navbar-nav li a {
+        padding: 10px 25px !important;
+        color: #333;
+    }
+
+    .navbar-nav li a:hover {
+        background: #fafafa;
+        color: #FF38F6 !important;
+    }
+
+    .navbar-nav .social-icon ul {
+        justify-content: center;
+        padding: 25px;
+    }
+
     .pe-40 {
         padding: 0 15px;
         margin-top: 50px;
@@ -86,8 +106,6 @@
     .ps-40 {
         padding: 0 15px;
     }
-
-    .ps-40 {}
 
     .inner-sec p {
         margin-right: 0;
@@ -98,7 +116,47 @@
     }
 
     .become-fighter-sec {
-        padding-bottom: 900px;
+        padding-bottom: 100px;
+    }
+
+    .hero-content h1 {
+        font-size: 72px;
+        line-height: 80px;
+        margin-bottom: 70px
+    }
+
+    .hero-sec {
+        padding-bottom: 200px;
+    }
+
+    .sec-fighter {
+        padding-top: 0px;
+    }
+
+    .fighter-content p {
+        padding: 0;
+    }
+
+    .fighter-content form input {
+        width: 100%;
+    }
+
+    .future-card {
+        margin: 0;
+        margin-bottom: 0px !important;
+        height: 100%;
+    }
+
+    .inner-sec .sec-title {
+        margin-top: 0;
+    }
+
+    .roadmap-sec {
+        padding-bottom: 100px;
+    }
+
+    .sec-practices {
+        padding-bottom: 100px;
     }
 }
 
@@ -119,8 +177,8 @@
         margin-bottom: 40px;
     }
 
-    .fighter-content form button {
-        width: 100%;
+    .sec-fighter {
+        padding-bottom: 160px;
     }
 
     .fighter-content form input {
@@ -134,22 +192,6 @@
     .sec-title {
         font-size: 46px;
         line-height: 46px;
-    }
-
-    .sec-roadmap {
-        padding: 80px 0;
-    }
-
-    .sec-roadmap h2 {
-
-        position: relative !important;
-        visibility: visible !important;
-        top: auto !important;
-        padding-bottom: 50px;
-    }
-
-    .sec-roadmap .uk-sticky-placeholder {
-        display: none !important;
     }
 
     .sec-practices {
@@ -184,10 +226,13 @@
         padding-bottom: 800px;
     }
 
-    .roadmap-item-group {
-        padding-left: 10px;
+    .become-fighter-sec {
+        padding-bottom: 100px;
     }
 
+    .roadmap-sec {
+        padding-top: 20px
+    }
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
@@ -196,20 +241,13 @@
         display: block;
     }
 
-    .action ul li {
-        display: block;
-        width: 100%;
-        margin-bottom: 32px;
-    }
-
     .hero-sec {
-        padding-bottom: 800px;
+        padding-bottom: 200px;
     }
 
     .hero-content h1 {
-
-        font-size: 48px;
-        line-height: 48px;
+        font-size: 56px;
+        line-height: 65px;
     }
 
     .hero-content h1 span img {
@@ -222,12 +260,8 @@
     }
 
     h3.sec-title {
-        font-size: 28px;
-        line-height: 28px;
-    }
-
-    .sec-roadmap h2 {
-        text-align: center;
+        font-size: 46px;
+        line-height: 52px;
     }
 
     .inner-sec img {
@@ -238,19 +272,83 @@
     .hero-content h1 span img {
         padding: 0;
     }
-    .roadmap-item{
-        padding-bottom: 40px;
+
+    .faq-content {
+        padding: 0;
     }
+
+    .faq-content .accordion-item,
+    .faq-content .accordion-item .accordion-header .accordion-button span,
+    .faq-content .accordion-item .accordion-body {
+        -ms-transform: skewX(08deg);
+        transform: skewX(0deg);
+    }
+
+    .faq-content .accordion-item .accordion-body {
+        padding: 25px;
+    }
+
+    .faq-content .accordion-item .accordion-header .accordion-button span {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .faq-content .accordion-item .accordion-header .accordion-button {
+        padding: 25px;
+    }
+
+    .future-sec .uk-grid {
+        margin-left: -15px;
+    }
+
 }
-@media (max-width: 359.98px){
-    .roadmap-item-icon{
-        padding: 0 30px;
+
+@media (max-width: 359.98px) {
+    .hero-content h1 {
+        font-size: 40px;
+        line-height: 46px;
     }
-    .roadmap-item:first-child .roadmap-item-icon{
-        padding-right: 45px !important; 
+
+    .fighter-content form button {
+        left: 0
     }
-    .roadmap-item-text{
-        font-size:20px;
-        line-height: 28px;
+
+    .become-fighter-sec {
+        padding-bottom: 0;
+    }
+
+    .future-sec {
+        margin-top: 80px;
+    }
+
+    .future-card p {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .sec-practices {
+        padding: 0
+    }
+
+    .inner-sec .sec-title {
+        text-align: center;
+    }
+
+    .inner-sec p {
+        text-align: center;
+    }
+
+    .footer-sec {
+        padding-top: 80px;
+    }
+
+    .team-card {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .team h3:last-child {
+        font-size: 32px;
+        line-height: 40px;
     }
 }

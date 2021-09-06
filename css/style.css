@@ -49,8 +49,16 @@ ul {
     margin: 0;
 }
 
+.navbar-toggler {
+    color: #fff;
+    font-size: 26px;
+    border: 1px solid;
+    border-radius: 0;
+    padding: 7px 15px;
+}
+
 .sec-title {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 80px;
     line-height: 70px;
     font-style: italic;
@@ -83,8 +91,8 @@ h4.sec-title {
 
 .text {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 22px;
+    line-height: 32px;
     color: #ffffffb7
 }
 
@@ -109,8 +117,6 @@ header {
 .logo a img {
     width: 190px;
 }
-
-header .nav-item {}
 
 header .nav-link {
     font-style: italic;
@@ -222,7 +228,7 @@ header .nav-link.active {
     content: "";
     position: absolute;
     height: 280.86px;
-    left: 0px;
+    left: 0;
     right: 0;
     bottom: 0;
     background: linear-gradient(180deg, #0d001b00 0%, #0d001be0 77.13%, #0D001B 100%);
@@ -238,7 +244,7 @@ header .nav-link.active {
     font-style: italic;
     font-size: 100px;
     line-height: 106px;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
     color: #FFFFFF;
     text-shadow: 2px 4px 4px #d86fd296;
@@ -311,7 +317,11 @@ header .nav-link.active {
     background-size: 85%;
     background-position: center left;
     padding-top: 150px;
-    padding-bottom: 220px;
+    padding-bottom: 250px;
+}
+
+.sec-fighter .col-md-6 {
+    padding: 0;
 }
 
 .become-fighter-sec {
@@ -319,12 +329,37 @@ header .nav-link.active {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding-bottom: 550px;
+    padding-bottom: 350px;
+    position: relative;
+}
+
+.become-fighter-sec::before {
+    content: "";
+    position: absolute;
+    height: 182.09px;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    background: linear-gradient(180deg, #0D001B 0%, #0d001b00 100%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.become-fighter-sec::after {
+    content: "";
+    position: absolute;
+    height: 246.97px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(180deg, #0D001B 0%, #0d001bbc 67.24%, #0d001b00 100%);
 }
 
 .become-fighter-content {
     max-width: 1140px;
     margin: auto;
+    position: relative;
+    z-index: 1;
+    top: -110px;
 }
 
 .become-fighter-content h2 {
@@ -345,15 +380,14 @@ header .nav-link.active {
 }
 
 .fighter-content h2 {
-    margin-bottom: 30px;
+    margin-bottom: 21.4px;
 }
 
-.fighter-content {}
 
 .fighter-content p {
     margin-top: 0;
-    margin-bottom: 48px;
-    padding-right: 50px;
+    margin-bottom: 38px;
+    padding-right: 80px;
 }
 
 
@@ -363,13 +397,13 @@ header .nav-link.active {
     line-height: 34px;
     padding: 10px 25px;
     background: transparent;
-    color: #fff;
-    border: 1px solid #fff;
-    width: calc(100% - 140px);
+    color: #ffffff;
+    border: 1px solid #ffffff80;
+    width: calc(100% - 170px);
 }
 
 .fighter-content form .calc {
-    margin-bottom: 48px;
+    margin-bottom: 38px;
 }
 
 .fighter-content form p {
@@ -432,28 +466,49 @@ header .nav-link.active {
     transform: skewX(15deg) !important;
 }
 
-.sec-roadmap {
-
+.future-sec {
+    position: relative;
     background-image: url(../images/roadmap.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    padding-top: 21px;
-    margin-top: 115px;
+    margin-top: 140px;
+    padding-bottom: 70px;
 }
 
-.sec-roadmap h2 {
-    color: #000000;
-    text-shadow: 3px 3px 3px #fced0d66, 3px 6px 3px #ff512766;
-    transition: linear .3s;
+.future-sec .sec-title {
+    position: relative;
+    top: -45px;
 }
 
-.sec-roadmap h2.uk-active {
+.future-sec::after {
+    content: "";
+    position: absolute;
+    height: 182.09px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, #0D001B 0%, #0d001b00 100%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.future-sec::before {
+    content: "";
+    position: absolute;
+    height: 182.09px;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: linear-gradient(180deg, #0D001B 0%, rgba(13, 0, 27, 0) 100%);
+
+}
+
+.future-sec h2.uk-active {
     padding-top: 80px;
     transition: linear .3s;
 }
 
-.roadmap-card {
+.future-card {
     text-align: center;
     border: 3px solid;
     border-image-slice: 1;
@@ -461,9 +516,11 @@ header .nav-link.active {
     padding: 50px 30px;
     margin: 0 20px;
     margin-bottom: 30px !important;
+    position: relative;
+    z-index: 1;
 }
 
-.roadmap-card h4 {
+.future-card h4 {
     font-weight: 500;
     font-size: 75px;
     line-height: 75px;
@@ -471,7 +528,7 @@ header .nav-link.active {
     margin-bottom: 30px;
 }
 
-.roadmap-card p {
+.future-card p {
     font-weight: 300;
     font-size: 28px;
     line-height: 50px;
@@ -479,14 +536,14 @@ header .nav-link.active {
     margin: 0;
 }
 
-.roadmap-card p strong {
+.future-card p strong {
     font-weight: 700;
 }
 
 .roadmap-sec {
     max-width: 1157px;
     margin: auto;
-    padding-bottom: 170px;
+    padding-bottom: 200px;
     padding-top: 85px;
 }
 
@@ -534,12 +591,12 @@ header .nav-link.active {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 50px;
+    padding-bottom: 180px;
 }
 
 .sec-practices .inner-sec {
-    margin-bottom: 150px;
+    margin-bottom: 30px;
 }
 
 .sec-practices .inner-sec:last-child {
@@ -603,7 +660,7 @@ header .nav-link.active {
 }
 
 .team h3 {
-    margin-bottom: 61px;
+    margin-bottom: 60px;
 }
 
 .team-card {
