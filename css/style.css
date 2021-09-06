@@ -7,7 +7,8 @@
     padding: 0;
     margin: 0;
     outline: 0;
-    font-family: 'Newsport Demo', sans-serif;
+    /* font-family: 'Newsport Demo', sans-serif; */
+    font-family: 'Rubik', sans-serif;
 }
 
 html,
@@ -26,7 +27,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Newsport Demo', sans-serif;
+    /* font-family: 'Newsport Demo', sans-serif; */
+    font-family: 'Rubik', sans-serif;
     color: #fff;
 }
 
@@ -91,7 +93,6 @@ h3.sec-title {
 /* header css */
 header {
     padding: 15px 0;
-    border-bottom: 1px solid #ffffff26;
     position: absolute;
     width: 100%;
     top: 0;
@@ -336,6 +337,28 @@ header {
 .sec-roadmap h2.uk-active {
     padding-top: 80px;
     transition: linear .3s;
+}
+
+.roadmap-card {
+    text-align: center;
+}
+
+.roadmap-card h4 {
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 89px;
+    color: #FF38F6;
+}
+
+.roadmap-card p {
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.roadmap-card p strong {
+    font-weight: 700;
 }
 
 .roadmap-item {
