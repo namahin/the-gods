@@ -216,7 +216,7 @@ header .nav-link.active {
 }
 
 .hero-sec {
-    padding-bottom: 300px;
+    padding-bottom: 80px;
     background-image: url(../images/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -231,14 +231,18 @@ header .nav-link.active {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(180deg, #0d001b00 0%, #0d001be0 77.13%, #0D001B 100%);
-
+    background: linear-gradient(180deg, #0d001b00 0%, #0d001be0 77.13%, #0d001b 100%);
 }
 
 .hero-content {
-    padding-top: 200px;
+    padding-top: 180px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
 }
-
+.hero-content img{
+    max-width: 1200px;
+}
 .hero-content h1 {
     text-align: center;
     font-style: italic;
