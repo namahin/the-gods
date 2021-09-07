@@ -74,9 +74,11 @@ h3.sec-title {
 }
 
 h4.sec-title {
-    font-size: 48px;
-    line-height: 60px;
-    font-weight: 500;
+    font-family: 'Newsport Demo', sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .sec-title span {
@@ -216,7 +218,7 @@ header .nav-link.active {
 }
 
 .hero-sec {
-    padding-bottom: 80px;
+    padding-bottom: 180px;
     background-image: url(../images/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -240,9 +242,11 @@ header .nav-link.active {
     z-index: 1;
     text-align: center;
 }
-.hero-content img{
+
+.hero-content img {
     max-width: 1200px;
 }
+
 .hero-content h1 {
     text-align: center;
     font-style: italic;
@@ -284,9 +288,9 @@ header .nav-link.active {
     font-weight: 500;
     font-size: 22px;
     line-height: 26px;
-    padding: 15px 50px;
-    -ms-transform: skewX(-45deg);
-    transform: skewX(-45deg);
+    padding: 15px 100px;
+    -ms-transform: skewX(-25deg);
+    transform: skewX(-25deg);
     transition: linear .3s;
     color: #ffffff;
     text-transform: uppercase;
@@ -306,8 +310,8 @@ header .nav-link.active {
 
 .action ul li a span {
     display: block;
-    -ms-transform: skewX(45deg);
-    transform: skewX(45deg);
+    -ms-transform: skewX(25deg);
+    transform: skewX(25deg);
     font-family: 'Rubik', sans-serif;
 }
 
