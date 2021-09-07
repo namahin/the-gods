@@ -271,17 +271,40 @@
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    .action ul li a {
+        padding: 15px;
+    }
+
+    .mint-counter {
+        padding: 15px;
+    }
+
     .hero-sec::before {
         height: 50px;
     }
 
     .mint-counter-container .uk-grid .count-title {
-
         width: 100%;
     }
 
     .mint-counter-container .uk-grid .count-title .title {
         margin: 0;
+    }
+
+    .mint-counter-container .uk-grid .count {
+        margin-top: 15px;
+    }
+
+    .mint-counter .number {
+
+        font-size: 22px;
+        line-height: 17px;
+    }
+
+    .mint-counter .label {
+
+        font-size: 12px;
+        line-height: 10px;
     }
 
     .action ul {
