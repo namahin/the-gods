@@ -68,21 +68,30 @@ ul {
 }
 
 h3.sec-title {
+    font-family: 'Newsport Demo', sans-serif;
     font-size: 65px;
     line-height: 70px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 h4.sec-title {
     font-family: 'Newsport Demo', sans-serif;
     font-size: 32px;
-    line-height: 38px;
+    line-height: 29px;
     font-weight: 400;
     font-style: italic;
 }
 
+h4.sec-title i {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    line-height: 38px;
+    top: 0;
+}
+
 .sec-title span {
     color: #FF38F6;
+    font-family: 'Newsport Demo', sans-serif;
 }
 
 .sec-title i {
@@ -93,9 +102,9 @@ h4.sec-title {
 
 .text {
     font-weight: 400;
-    font-size: 22px;
-    line-height: 32px;
-    color: #ffffffb7
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffffb7;
 }
 
 .pe-40 {
@@ -294,6 +303,7 @@ header .nav-link.active {
     transition: linear .3s;
     color: #ffffff;
     text-transform: uppercase;
+    letter-spacing: 0.06em;
 }
 
 .action ul li a:hover {
@@ -599,12 +609,28 @@ header .nav-link.active {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    padding-top: 50px;
-    padding-bottom: 180px;
+    padding-bottom: 105px;
+    position: relative;
+}
+
+.sec-practices::before {
+    content: "";
+    position: absolute;
+    height: 160.5px;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    background: linear-gradient(180deg, #0D001B 0%, #0d001b00 100%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+
 }
 
 .sec-practices .inner-sec {
     margin-bottom: 30px;
+}
+
+.sec-practices .inner-sec.first {
+    padding-top: 131px;
 }
 
 .sec-practices .inner-sec:last-child {
@@ -612,10 +638,13 @@ header .nav-link.active {
 }
 
 .inner-sec p {
-    font-size: 20px;
-    line-height: 30px;
     margin: 0;
     margin-right: 30px;
+    margin-bottom: 80px;
+}
+
+.inner-sec p:last-child {
+    margin-bottom: 0;
 }
 
 .footer-sec {
@@ -624,6 +653,7 @@ header .nav-link.active {
     background-size: cover;
     background-position: center top;
     position: relative;
+    padding-top: 35px;
 }
 
 .footer-sec::before {
@@ -658,25 +688,31 @@ header .nav-link.active {
 }
 
 .inner-sec .sec-title {
-    margin-top: 100px;
-    margin-bottom: 32px;
+    margin-top: 0;
+    margin-bottom: 24px;
 }
 
 .team {
+    padding-top: 70px;
     position: relative;
     z-index: 1;
 }
 
 .team h3 {
-    margin-bottom: 60px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    margin-bottom: 53px;
+}
+
+.team h3 span {
+    font-family: 'Rubik', sans-serif;
 }
 
 .team-card {
     position: relative;
-    margin: 0 10px;
     overflow: hidden;
     top: 0;
-    transform: scale(1);
+    transform: scale(1.02);
     transition: linear .3s;
 }
 
@@ -701,7 +737,10 @@ header .nav-link.active {
     line-height: 40px;
     letter-spacing: -0.02em;
     color: #FFFFFF;
-    margin-bottom: 16px;
+    margin-bottom: 6px;
+    background: -webkit-linear-gradient(270deg, #FF38F6, #5B4FFF, #FF38F6, #5B4FFF);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 1px transparent;
 }
 
 .team-card p {
@@ -712,7 +751,11 @@ header .nav-link.active {
     font-size: 24px;
     line-height: 30px;
     letter-spacing: -0.02em;
-    color: #ffffffbd;
+    color: #ffffff;
+    background: -webkit-linear-gradient(270deg, #FF38F6, #5B4FFF, #FF38F6, #5B4FFF);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 1px transparent;
+    opacity: 0.7;
 }
 
 .faq-sec {
@@ -720,6 +763,9 @@ header .nav-link.active {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 117px;
 }
 
 .faq-sec h3 {
@@ -856,4 +902,79 @@ footer {
     line-height: 24px;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.about-sec {}
+
+.about-content {
+    max-width: 1132px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-content h3 {
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    margin-top: 0;
+    margin-bottom: 44.3px;
+}
+
+.about-content img {
+    max-width: 524.73px;
+}
+
+.what-gods {
+    margin-bottom: 111px;
+}
+
+.what-gods img {
+    margin-bottom: 54.74px;
+}
+
+.what-gods .action li {
+    width: 524.73px;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.what-gods ul {}
+
+.what-gods ul li {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+    padding: 0 18px;
+}
+
+
+.story {
+    margin-bottom: 129px;
+}
+
+.story h3 {
+    margin-bottom: 28px;
+}
+
+.story p {
+    margin-bottom: 20px;
+}
+
+
+.story img {
+    margin-top: 30px;
+}
+
+.mission {
+    padding-bottom: 180px;
+}
+
+.mission h3 {}
+
+.mission p {
+    margin-bottom: 20px;
 }
