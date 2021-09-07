@@ -851,6 +851,10 @@ header .nav-link.active {
     color: #fff;
 }
 
+.faq-content .accordion-item .accordion-header .accordion-button span i {
+    font-family: 'Rubik', sans-serif;
+}
+
 .faq-content .accordion-item .accordion-header .accordion-button::after {
     content: "\f078";
     font-family: "Font Awesome 5 Free";
