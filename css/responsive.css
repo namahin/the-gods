@@ -79,18 +79,11 @@
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
     .navbar-nav {
-        background: #fff;
+        background: #0D001B;
         margin-top: 15px;
     }
-
-    .navbar-nav li a {
-        padding: 10px 25px !important;
-        color: #333;
-    }
-
-    .navbar-nav li a:hover {
-        background: #fafafa;
-        color: #FF38F6 !important;
+    .navbar-nav li a{
+        padding: 10px 15px !important;
     }
 
     .navbar-nav .social-icon ul {
@@ -157,6 +150,15 @@
 
     .sec-practices {
         padding-bottom: 100px;
+    }
+    header .container{
+        padding: 0;
+    }
+    header .logo{
+        padding-left: 15px;
+    }
+    header .navbar-toggler{
+        margin-right: 15px;
     }
 }
 
@@ -246,8 +248,8 @@
     }
 
     .hero-content h1 {
-        font-size: 56px;
-        line-height: 65px;
+        font-size: 46px;
+        line-height: 56px;
     }
 
     .hero-content h1 span img {
