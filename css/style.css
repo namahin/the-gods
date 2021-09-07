@@ -1,6 +1,6 @@
 @font-face {
     font-family: Newsport Demo;
-    src: url(/fonts/NewsportDemoRegular.ttf);
+    src: url(../fonts/NewsportDemoRegular.ttf);
 }
 
 * {
