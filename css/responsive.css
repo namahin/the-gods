@@ -5,10 +5,6 @@
         line-height: 100px;
     }
 
-    .hero-content img {
-        width: 100%;
-    }
-
     .sec-title {
         font-size: 65px;
         line-height: 60px;
@@ -102,6 +98,10 @@
         padding: 0 !important;
     }
 
+    .hero-sec::before {
+        height: 180px;
+    }
+
     .pe-40 {
         padding: 0 15px;
         margin-top: 50px;
@@ -128,10 +128,6 @@
         font-size: 72px;
         line-height: 80px;
         margin-bottom: 70px
-    }
-
-    .hero-sec {
-        padding-bottom: 200px;
     }
 
     .sec-fighter {
@@ -176,6 +172,10 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+    .hero-sec::before {
+        height: 80px;
+    }
+
     .hero-content h1 {
 
         font-size: 62px;
@@ -271,6 +271,10 @@
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    .hero-sec::before {
+        height: 50px;
+    }
+
     .mint-counter-container .uk-grid .count-title {
 
         width: 100%;
@@ -286,10 +290,6 @@
 
     .action ul li {
         width: 100% !important;
-    }
-
-    .hero-sec {
-        padding-bottom: 200px;
     }
 
     .hero-content h1 {
@@ -364,6 +364,10 @@
 }
 
 @media (max-width: 499.98px) {
+    .hero-sec::before {
+        height: 20px;
+    }
+
     .team .col-sm-6.col-6 {
 
         flex: 0 0 100%;
