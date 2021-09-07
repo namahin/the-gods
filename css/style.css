@@ -152,6 +152,28 @@ header .nav-link.active {
     transition: linear .2s;
 }
 
+.nav-icon ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-icon ul li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 2px;
+    width: 38px;
+    height: 35px;
+}
+
+.nav-icon ul li a {
+    color: #fff;
+}
+
+.nav-icon ul li a:hover {
+    color: #FF38F6;
+}
+
 .social-icon ul {
     display: flex;
     align-items: center;
@@ -233,6 +255,8 @@ header .nav-link.active {
     background-size: cover;
     background-position: top center;
     position: relative;
+    /* height: calc(100vh - 98px); */
+    /* overflow: hidden; */
 }
 
 .hero-sec::before {
@@ -246,10 +270,14 @@ header .nav-link.active {
 }
 
 .hero-content {
-    padding-top: 180px;
-    position: relative;
+    padding-top: 110px;
     z-index: 1;
     text-align: center;
+    position: relative;
+    /* position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0); */
 }
 
 .hero-content img {
@@ -625,12 +653,17 @@ header .nav-link.active {
 
 }
 
+.sec-practices h3.sec-title.roadmaps-title {
+    position: relative;
+    top: -60px;
+}
+
 .sec-practices .inner-sec {
     margin-bottom: 30px;
 }
 
 .sec-practices .inner-sec.first {
-    padding-top: 131px;
+    padding-top: 71px;
 }
 
 .sec-practices .inner-sec:last-child {
@@ -904,12 +937,32 @@ footer {
     color: #FFFFFF;
 }
 
-.about-sec {}
+.about-sec {
+    position: relative;
+    background-image: url(../images/about-sec-bg.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+}
+
+.about-sec::before {
+    content: "";
+    position: absolute;
+    height: 123.11px;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, #0D001B 0%, #0d001b00 100%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
 
 .about-content {
     max-width: 1132px;
     margin: auto;
     text-align: center;
+    position: relative;
+    z-index: 1;
 }
 
 .about-content h3 {
@@ -938,8 +991,6 @@ footer {
     padding: 0;
     margin-bottom: 30px;
 }
-
-.what-gods ul {}
 
 .what-gods ul li {
     display: inline-block;
@@ -972,8 +1023,6 @@ footer {
 .mission {
     padding-bottom: 180px;
 }
-
-.mission h3 {}
 
 .mission p {
     margin-bottom: 20px;

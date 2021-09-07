@@ -5,6 +5,10 @@
         line-height: 100px;
     }
 
+    .hero-content img {
+        width: 100%;
+    }
+
     .sec-title {
         font-size: 65px;
         line-height: 60px;
@@ -39,11 +43,6 @@
         width: 80%;
     }
 
-    .inner-sec p {
-        font-size: 16px;
-        line-height: 26px;
-    }
-
     .sec-fighter .col-md-6 {
         padding: 0 15px;
     }
@@ -64,10 +63,9 @@
         padding-left: 20px
     }
 
-    .inner-sec .sec-title {
-        font-size: 36px;
-        line-height: 40px;
-        margin-top: 50px;
+
+    .inner-sec img {
+        width: 100%;
     }
 
     .faq-content {
@@ -82,13 +80,26 @@
         background: #0D001B;
         margin-top: 15px;
     }
-    .navbar-nav li a{
+
+    .navbar-nav li a {
         padding: 10px 15px !important;
     }
 
     .navbar-nav .social-icon ul {
         justify-content: center;
         padding: 25px;
+    }
+
+    .nav-icon ul {
+        justify-content: center;
+    }
+
+    .nav-icon ul li {
+        text-align: center;
+    }
+
+    .nav-icon ul li a {
+        padding: 0 !important;
     }
 
     .pe-40 {
@@ -102,6 +113,7 @@
 
     .inner-sec p {
         margin-right: 0;
+        margin-bottom: 40px;
     }
 
     .sec-practices {
@@ -140,9 +152,6 @@
         height: 100%;
     }
 
-    .inner-sec .sec-title {
-        margin-top: 0;
-    }
 
     .roadmap-sec {
         padding-bottom: 100px;
@@ -151,13 +160,16 @@
     .sec-practices {
         padding-bottom: 100px;
     }
-    header .container{
+
+    header .container {
         padding: 0;
     }
-    header .logo{
+
+    header .logo {
         padding-left: 15px;
     }
-    header .navbar-toggler{
+
+    header .navbar-toggler {
         margin-right: 15px;
     }
 }
@@ -168,6 +180,14 @@
 
         font-size: 62px;
         line-height: 65px;
+    }
+
+    .about-content img {
+        width: 70%;
+    }
+
+    .team {
+        padding-top: 0;
     }
 
     .sec-fighter {
@@ -205,7 +225,11 @@
     }
 
     .inner-sec img {
-        width: 100%;
+        width: 80%;
+    }
+
+    .inner-sec .col-md-6 {
+        text-align: center;
     }
 
     .sec-practices .inner-sec {
@@ -221,7 +245,7 @@
     }
 
     .team-card {
-        margin-bottom: 60px;
+        margin-bottom: 30px;
     }
 
     .become-fighter-sec {
@@ -235,12 +259,33 @@
     .roadmap-sec {
         padding-top: 20px
     }
+
+    .mission {
+        padding-bottom: 50px;
+    }
+
+    .sec-practices .inner-sec.first {
+        padding-top: 0;
+    }
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    .mint-counter-container .uk-grid .count-title {
+
+        width: 100%;
+    }
+
+    .mint-counter-container .uk-grid .count-title .title {
+        margin: 0;
+    }
+
     .action ul {
         display: block;
+    }
+
+    .action ul li {
+        width: 100% !important;
     }
 
     .hero-sec {
@@ -261,6 +306,11 @@
         line-height: 36px;
     }
 
+    .what-gods,
+    .story {
+        margin-bottom: 40px;
+    }
+
     h3.sec-title {
         font-size: 46px;
         line-height: 52px;
@@ -273,6 +323,10 @@
 
     .hero-content h1 span img {
         padding: 0;
+    }
+
+    .faq-sec {
+        padding-bottom: 60px;
     }
 
     .faq-content {
@@ -303,6 +357,18 @@
         margin-left: -15px;
     }
 
+    .sec-practices {
+        padding-bottom: 40px;
+    }
+
+}
+
+@media (max-width: 499.98px) {
+    .team .col-sm-6.col-6 {
+
+        flex: 0 0 100%;
+        width: 100%;
+    }
 }
 
 @media (max-width: 359.98px) {

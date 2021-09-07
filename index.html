@@ -33,22 +33,22 @@
         <div class="mint-counter-container">
             <div class="uk-flex-middle uk-flex-center uk-child-width-auto" uk-grid
                 uk-countdown="date: 2021-09-14T09:55:52+00:00">
-                <div>
+                <div class="count-title">
                     <div class="title">Mint Day</div>
                 </div>
-                <div>
+                <div class="count">
                     <div class="number uk-countdown-days"></div>
                     <div class="label">Days</div>
                 </div>
-                <div>
+                <div class="count">
                     <div class="number uk-countdown-hours"></div>
                     <div class="label">Hours</div>
                 </div>
-                <div>
+                <div class="count">
                     <div class="number uk-countdown-minutes"></div>
                     <div class="label">Mins</div>
                 </div>
-                <div>
+                <div class="count">
                     <div class="number uk-countdown-seconds"></div>
                     <div class="label">Sec</div>
                 </div>
@@ -72,7 +72,7 @@
                             <li class="nav-item"><a class="nav-link" href="#roadmap">Roadmap</a></li>
                             <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                             <li class="nav-item">
-                                <div class="social-icon">
+                                <div class="nav-icon">
                                     <ul>
                                         <li><a href="#" target="_blank"><span><i class="fab fa-discord"></i></span></a>
                                         </li>
@@ -94,23 +94,24 @@
         </div>
         </div>
     </section>
-    <section class="about-sec">
+    <section class="about-sec" uk-parallax="bgy: -200">
         <div class="container">
             <div class="about-content">
                 <div class="what-gods">
-                    <h3 class="sec-title text-center">WHAT ARE THE <span>GODS</span></h3>
-                    <p class="text text-center">The Gods are 5000 generative characters, with hand drawn traits created
+                    <h3 class="sec-title text-center wow fadeInUp">WHAT ARE THE <span>GODS</span></h3>
+                    <p class="text text-center wow fadeInUp">The Gods are 5000 generative characters, with hand drawn
+                        traits created
                         by
                         our team of 80 illustrators. The Gods have to come together from 11 different galaxies to create
                         the
                         new universe.</p>
-                    <img src="images/male-gods.gif" alt="">
+                    <img class="wow fadeInUp" src="images/male-gods.gif" alt="">
                     <div class="action wow fadeInUp">
                         <ul>
                             <li><a href="#" target="_blank"><span>Connect wallet</span></a></li>
                         </ul>
                     </div>
-                    <ul>
+                    <ul class=" wow fadeInUp">
                         <li>Price: 0.05 ETH</li>
                         <li>ETH Supply: 5000</li>
                         <li>/9999 minted</li>
@@ -118,25 +119,31 @@
                     </ul>
                 </div>
                 <div class="story">
-                    <h3 class="sec-title text-center">ORIGIN <span>STORY</span></h3>
-                    <p class="text text-center">In the beginning there was nothing but a God by the name of Anant. One
+                    <h3 class="sec-title text-center wow fadeInUp">ORIGIN <span>STORY</span></h3>
+                    <p class="text text-center wow fadeInUp">In the beginning there was nothing but a God by the name of
+                        Anant. One
                         day Anant created the universe with an explosion of energy from his chest. This force created 11
                         galaxies and a combined total of 5,000 unique Gods. </p>
-                    <p class="text text-center">All the Gods were wired in their own unique way, yet they all had one
+                    <p class="text text-center wow fadeInUp">All the Gods were wired in their own unique way, yet they
+                        all had one
                         thing in common -- They were all made
                         from the same creative energy. </p>
-                    <p class="text text-center">Will they be able to work together and collaborate to build the new
+                    <p class="text text-center wow fadeInUp">Will they be able to work together and collaborate to build
+                        the new
                         universe? We will find out!</p>
-                    <img src="images/Explosion.gif" alt="">
+                    <img class="wow fadeInUp" src="images/Explosion.gif" alt="">
                 </div>
                 <div class="mission">
-                    <h3 class="sec-title text-center">MISSION <span>STATEMENT</span></h3>
-                    <p class="text text-center">We believe everyone is a creator. Some love mastering their artistic
+                    <h3 class="sec-title text-center wow fadeInUp">MISSION <span>STATEMENT</span></h3>
+                    <p class="text text-center wow fadeInUp">We believe everyone is a creator. Some love mastering their
+                        artistic
                         craft, while others don’t identify as an ‘artist’, yet still have a deep desire to use their
                         imagination & create. That was us.</p>
-                    <p class="text text-center">This desire led us to hire 80 illustrators full time that could help
+                    <p class="text text-center wow fadeInUp">This desire led us to hire 80 illustrators full time that
+                        could help
                         bring any of our, or your ideas, to life.</p>
-                    <p class="text text-center">The Gods were made to give all community members access to be THE
+                    <p class="text text-center wow fadeInUp">The Gods were made to give all community members access to
+                        be THE
                         CREATOR. TO BE THE GOD.</p>
                 </div>
             </div>
@@ -144,7 +151,7 @@
     </section>
     <section class="sec-practices" uk-parallax="bgy: -500">
         <div class="container">
-            <h3 class="sec-title text-center">Roadmaps</span></h3>
+            <h3 class="sec-title text-center roadmaps-title">Roadmaps</span></h3>
             <div class="inner-sec first">
                 <div class="row row-reverse align-items-center">
                     <div class="col-md-6 pe-40">
@@ -239,7 +246,7 @@
             <div class="team">
                 <h3 class="sec-title text-center wow fadeInUp">Meet the <span>Team</span></h3>
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-6 col-6">
                         <div class="team-card wow fadeInUp">
                             <img src="images/Dasha-Art.png" alt="">
                             <div class="card-content">
@@ -248,7 +255,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-6 col-6">
                         <div class="team-card wow fadeInUp">
                             <img src="images/Cultivate.png" alt="">
                             <div class="card-content">
@@ -257,7 +264,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-6 col-6">
                         <div class="team-card wow fadeInUp">
                             <img src="images/Alex.png" alt="">
                             <div class="card-content">
@@ -266,7 +273,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-6 col-6">
                         <div class="team-card mb-0 wow fadeInUp">
                             <img src="images/BetaMax.png" alt="">
                             <div class="card-content">
