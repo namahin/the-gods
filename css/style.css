@@ -41,6 +41,11 @@ a,
 a:hover {
     text-decoration: none;
     transition: linear .2s;
+    color: #FF38F6;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 ul {
